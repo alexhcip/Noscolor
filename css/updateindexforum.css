@@ -1,0 +1,346 @@
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) and (max-width: 479px) {
+	.forum-header-row{
+		background-color: #0b3c5d;
+		color: white;
+	}
+	.btn-circle .btn-xl {
+	  	width: 100px;
+	  	height: 100px;
+	  	padding: 10px 16px;
+	  	font-size: 2em;
+	  	line-height: 1.33;
+	  	border-radius: 50px;
+	}
+	.table>tbody>tr>td{
+		vertical-align: middle;
+	}
+	button.tag{
+	  	height: 20px;
+	  	padding: 2px 5px;
+	  	font-size: 13px;
+	  	border-radius: 9px;
+	  	line-height: 1;
+	  	text-align: center;
+	  	color: white;
+	}
+	button.makeup{
+		background-color: #eb6e80;
+	}
+	button.skincare{
+		background-color: #3cc47c;
+	}
+	button.fragrance{
+		background-color: #813772;
+	}
+	button.nail{
+		background-color: #e37222;
+	}
+	button.hair{
+		background-color: #0e0b16;
+	}
+	button.bodyandbath{
+		background-color: #77c9d4;
+	}
+	button.tools{
+		background-color: #328cc1;
+	}
+	button.others{
+		background-color: #dfdce3;
+	}
+	/*show trimmed forum (updateindexforum.php)*/
+	.Forum-Title-Heading{
+		width: 85%;
+	}
+	.Forum-Reply-Heading{
+		width: 10%;
+		text-align: center;
+	}
+	.Forum-By-Heading{
+		display: none;
+	}
+	.Forum-Date-Heading{
+		display: none;
+	}
+	.Forum-Like-Heading{
+		width: 5%;
+	}
+}
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) and (max-width: 767px) {
+	/*show trimmed forum (updateindexforum.php)*/
+	.forum-header-row{
+		background-color: #0b3c5d;
+		color: white;
+	}
+	.btn-circle .btn-xl {
+	  	width: 100px;
+	  	height: 100px;
+	  	padding: 10px 16px;
+	  	font-size: 2em;
+	  	line-height: 1.33;
+	  	border-radius: 50px;
+	}
+	.table>tbody>tr>td{
+		vertical-align: middle;
+	}
+	.Forum-Title-Heading{
+		width: 80%;
+	}
+	button.tag{
+	  	height: 20px;
+	  	padding: 4px 6px;
+	  	font-size: 13px;
+	  	line-height: 1;
+	  	border-radius: 9px;
+	  	text-align: center;
+	  	color: white;
+	}
+	button.makeup{
+		background-color: #eb6e80;
+	}
+	button.skincare{
+		background-color: #3cc47c;
+	}
+	button.fragrance{
+		background-color: #813772;
+	}
+	button.nail{
+		background-color: #e37222;
+	}
+	button.hair{
+		background-color: #0e0b16;
+	}
+	button.bodyandbath{
+		background-color: #77c9d4;
+	}
+	button.tools{
+		background-color: #328cc1;
+	}
+	button.others{
+		background-color: #dfdce3;
+		color: black;
+	}
+	.Forum-Reply-Heading{
+		width: 15%;
+		text-align: center;
+	}
+	.Forum-By-Heading{
+		display: none;
+	}
+	.Forum-Date-Heading{
+		display: none;
+	}
+	.Forum-Like-Heading{
+		width: 5%;
+	}
+}
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) and (max-width: 991px) {
+	.forum-header-row{
+		background-color: #0b3c5d;
+		color: white;
+	}
+	.btn-circle .btn-xl {
+	  	width: 100px;
+	  	height: 100px;
+	  	padding: 10px 16px;
+	  	font-size: 2em;
+	  	line-height: 1.33;
+	  	border-radius: 50px;
+	}
+	.table>tbody>tr>td{
+		vertical-align: middle;
+	}
+	.Forum-Title-Heading{
+		width: 70%;
+	}
+	button.tag{
+	  	height: 20px;
+	  	padding: 4px 6px;
+	  	font-size: 13px;
+	  	line-height: 1;
+	  	border-radius: 9px;
+	  	text-align: center;
+	  	color: white;
+	}
+	button.makeup{
+		background-color: #eb6e80;
+	}
+	button.skincare{
+		background-color: #3cc47c;
+	}
+	button.fragrance{
+		background-color: #813772;
+	}
+	button.nail{
+		background-color: #e37222;
+	}
+	button.hair{
+		background-color: #0e0b16;
+	}
+	button.bodyandbath{
+		background-color: #77c9d4;
+	}
+	button.tools{
+		background-color: #328cc1;
+	}
+	button.others{
+		background-color: #dfdce3;
+		color: black;
+	}
+	.Forum-Reply-Heading{
+		width: 10%;
+		text-align: center;
+	}
+	.Forum-By-Heading{
+		display: none;
+	}
+	.Forum-Date-Heading{
+		width: 15%;
+		text-align: center;
+	}
+	.Forum-Like-Heading{
+		width: 5%;
+	}
+}
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) and (max-width: 1199px) {
+	.forum-header-row{
+		background-color: #0b3c5d;
+		color: white;
+	}
+	.btn-circle .btn-xl {
+	  	width: 100px;
+	  	height: 100px;
+	  	padding: 10px 16px;
+	  	font-size: 2em;
+	  	line-height: 1.33;
+	  	border-radius: 50px;
+	}
+	.table>tbody>tr>td{
+		vertical-align: middle;
+	}
+	.Forum-Title-Heading{
+		width: 65%;
+	}
+	button.tag{
+	  	height: 22px;
+	  	padding: 4px 6px;
+	  	font-size: 13px;
+	  	line-height: 1;
+	  	border-radius: 9px;
+	  	text-align: center;
+	  	color: white;
+	}
+	button.makeup{
+		background-color: #eb6e80;
+	}
+	button.skincare{
+		background-color: #3cc47c;
+	}
+	button.fragrance{
+		background-color: #813772;
+	}
+	button.nail{
+		background-color: #e37222;
+	}
+	button.hair{
+		background-color: #0e0b16;
+	}
+	button.bodyandbath{
+		background-color: #77c9d4;
+	}
+	button.tools{
+		background-color: #328cc1;
+	}
+	button.others{
+		background-color: #dfdce3;
+		color: black;
+	}
+	.Forum-Reply-Heading{
+		width: 10%;
+		text-align: center;
+	}
+	.Forum-By-Heading{
+		width: 10%;
+	}
+	.Forum-Date-Heading{
+		width: 10%;
+		text-align: center;
+	}
+	.Forum-Like-Heading{
+		width: 5%;
+	}
+}
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	/*hide trimmed forum (updateindexforum.php)*/
+	.forum-header-row{
+		background-color: #0b3c5d;
+		color: white;
+	}
+	.btn-circle .btn-xl {
+	  	width: 100px;
+	  	height: 100px;
+	  	padding: 10px 16px;
+	  	font-size: 2em;
+	  	line-height: 1.33;
+	  	border-radius: 50px;
+	}
+	.table>tbody>tr>td{
+		vertical-align: middle;
+	}
+	.Forum-Title-Heading{
+		width: 65%;
+	}
+	button.tag{
+	  	height: 25px;
+	  	padding: 5px 8px;
+	  	font-size: 14px;
+	  	line-height: 1;
+	  	border-radius: 10px;
+	  	text-align: center;
+	  	color: white;
+	}
+	button.makeup{
+		background-color: #eb6e80;
+	}
+	button.skincare{
+		background-color: #3cc47c;
+	}
+	button.fragrance{
+		background-color: #813772;
+	}
+	button.nail{
+		background-color: #e37222;
+	}
+	button.hair{
+		background-color: #0e0b16;
+	}
+	button.bodyandbath{
+		background-color: #77c9d4;
+	}
+	button.tools{
+		background-color: #328cc1;
+	}
+	button.others{
+		background-color: #dfdce3;
+		color: black;
+	}
+	.Forum-Reply-Heading{
+		width: 10%;
+		text-align: center;
+	}
+	.Forum-By-Heading{
+		width: 10%;
+	}
+	.Forum-Date-Heading{
+		width: 10%;
+		text-align: center;
+	}
+	.Forum-Like-Heading{
+		width: 5%;
+	}
+}
+}

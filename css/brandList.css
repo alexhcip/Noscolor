@@ -1,0 +1,360 @@
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) and (max-width: 479px) {
+	#myInput {
+    background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+    background-position: 10px 12px; /* Position the search icon */
+    background-repeat: no-repeat; /* Do not repeat the icon image */
+    width: 100%; /* Full-width */
+    font-size: 16px; /* Increase font-size */
+    padding: 12px 20px 12px 40px; /* Add some padding */
+    border: 1px solid #ddd; /* Add a grey border */
+    margin-bottom: 12px; /* Add some space below the input */
+}
+
+#myUL {
+    /* Remove default list styling */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+    .section-header {
+        border: 1px solid #ddd; /* Add a border to all links */
+        margin-top: -1px; /* Prevent double borders */
+        background-color: #f6f6f6; /* Grey background color */
+        padding: 12px; /* Add some padding */
+        text-decoration: none; /* Remove default text underline */
+        font-size: 18px; /* Increase the font-size */
+        color: black; /* Add a black text color */
+        display: block; /* Make it into a block element to fill the whole list */
+        cursor: default; /* Change cursor style */
+        height:40px;
+        width: 100%;    
+    }
+    .section-row{
+        margin-top: -1px; /* Prevent double borders */
+        border: 1px solid #ddd; /* Add a border to all links */
+        background-color: #ffffff; /* Grey background color */
+        width: 100%;
+        position: relative;
+        height: 75px;
+        display: inline-block;
+        line-height: 75px;
+    }
+    .brand-name-span {
+        width: 75%;
+        position: relative;
+        display: inline-block;
+    }
+    .brand-name {
+        padding: 2px; /* Add some padding */
+        text-decoration: none; /* Remove default text underline */
+        font-size: 3vw; /* Increase the font-size */
+        color: black; /* Add a black text color */
+        text-align: left;
+    }
+    .brand-thumbnail-span {
+        width: 20%;
+        position: relative;
+        display: inline-block;
+        vertical-align: middle;
+        padding:2px;
+    }
+    .brand-thumbnail {
+        max-height: 65px;
+        max-width:100%;
+        display: block;
+        margin: 0 auto;
+    }
+    #myUL li:hover:not(.sector-header) {
+        background-color: #eee; /* Add a hover effect to all links, except for headers */
+    }
+}
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) and (max-width: 767px) {
+	#myInput {
+    background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+    background-position: 10px 12px; /* Position the search icon */
+    background-repeat: no-repeat; /* Do not repeat the icon image */
+    width: 100%; /* Full-width */
+    font-size: 16px; /* Increase font-size */
+    padding: 12px 20px 12px 40px; /* Add some padding */
+    border: 1px solid #ddd; /* Add a grey border */
+    margin-bottom: 12px; /* Add some space below the input */
+}
+
+#myUL {
+    /* Remove default list styling */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+    .section-header {
+        border: 1px solid #ddd; /* Add a border to all links */
+        margin-top: -1px; /* Prevent double borders */
+        background-color: #f6f6f6; /* Grey background color */
+        padding: 12px; /* Add some padding */
+        text-decoration: none; /* Remove default text underline */
+        font-size: 18px; /* Increase the font-size */
+        color: black; /* Add a black text color */
+        display: block; /* Make it into a block element to fill the whole list */
+        cursor: default; /* Change cursor style */
+        height:40px;
+        width: 100%;    
+    }
+    .section-row{
+        margin-top: -1px; /* Prevent double borders */
+        border: 1px solid #ddd; /* Add a border to all links */
+        background-color: #ffffff; /* Grey background color */
+        width: 100%;
+        position: relative;
+        height: 75px;
+        display: inline-block;
+        line-height: 75px;
+    }
+    .brand-name-span {
+        width: 75%;
+        position: relative;
+        display: inline-block;
+    }
+    .brand-name {
+        padding: 5px; /* Add some padding */
+        text-decoration: none; /* Remove default text underline */
+        font-size: 3vw; /* Increase the font-size */
+        color: black; /* Add a black text color */
+        text-align: left;
+    }
+    .brand-thumbnail-span {
+        width: 20%;
+        position: relative;
+        display: inline-block;
+        vertical-align: middle;
+        padding:5px;
+    }
+    .brand-thumbnail {
+        max-height: 65px;
+        max-width:100%;
+        display: block;
+        margin: 0 auto;
+    }
+    #myUL li:hover:not(.sector-header) {
+        background-color: #eee; /* Add a hover effect to all links, except for headers */
+    }
+
+#myUL li a:hover:not(.header) {
+    background-color: #eee; /* Add a hover effect to all links, except for headers */
+}
+}
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) and (max-width: 991px) {
+	#myInput {
+    background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+    background-position: 10px 12px; /* Position the search icon */
+    background-repeat: no-repeat; /* Do not repeat the icon image */
+    width: 100%; /* Full-width */
+    font-size: 16px; /* Increase font-size */
+    padding: 12px 20px 12px 40px; /* Add some padding */
+    border: 1px solid #ddd; /* Add a grey border */
+    margin-bottom: 12px; /* Add some space below the input */
+}
+
+#myUL {
+    /* Remove default list styling */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+    .section-header {
+        border: 1px solid #ddd; /* Add a border to all links */
+        margin-top: -1px; /* Prevent double borders */
+        background-color: #f6f6f6; /* Grey background color */
+        padding: 12px; /* Add some padding */
+        text-decoration: none; /* Remove default text underline */
+        font-size: 18px; /* Increase the font-size */
+        color: black; /* Add a black text color */
+        display: block; /* Make it into a block element to fill the whole list */
+        cursor: default; /* Change cursor style */
+        height:40px;
+        width: 100%;    
+    }
+    .section-row{
+        margin-top: -1px; /* Prevent double borders */
+        border: 1px solid #ddd; /* Add a border to all links */
+        background-color: #ffffff; /* Grey background color */
+        width: 100%;
+        position: relative;
+        height: 90px;
+        display: inline-block;
+        line-height: 90px;
+    }
+    .brand-name-span {
+        width: 75%;
+        position: relative;
+        display: inline-block;
+    }
+    .brand-name {
+        padding: 8px; /* Add some padding */
+        text-decoration: none; /* Remove default text underline */
+        font-size: 3vw; /* Increase the font-size */
+        color: black; /* Add a black text color */
+        text-align: left;
+    }
+    .brand-thumbnail-span {
+        width: 20%;
+        position: relative;
+        display: inline-block;
+        vertical-align: middle;
+        padding:5px;
+    }
+    .brand-thumbnail {
+        max-height: 80px;
+        max-width:100%;
+        display: block;
+        margin: 0 auto;
+    }
+    #myUL li:hover:not(.sector-header) {
+        background-color: #eee; /* Add a hover effect to all links, except for headers */
+    }
+}
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) and (max-width: 1199px) {
+	#myInput {
+    background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+    background-position: 10px 12px; /* Position the search icon */
+    background-repeat: no-repeat; /* Do not repeat the icon image */
+    width: 100%; /* Full-width */
+    font-size: 16px; /* Increase font-size */
+    padding: 12px 20px 12px 40px; /* Add some padding */
+    border: 1px solid #ddd; /* Add a grey border */
+    margin-bottom: 12px; /* Add some space below the input */
+}
+
+#myUL {
+    /* Remove default list styling */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+    .section-header {
+        border: 1px solid #ddd; /* Add a border to all links */
+        margin-top: -1px; /* Prevent double borders */
+        background-color: #f6f6f6; /* Grey background color */
+        padding: 12px; /* Add some padding */
+        text-decoration: none; /* Remove default text underline */
+        font-size: 18px; /* Increase the font-size */
+        color: black; /* Add a black text color */
+        display: block; /* Make it into a block element to fill the whole list */
+        cursor: default; /* Change cursor style */
+        height:40px;
+        width: 100%;    
+    }
+    .section-row{
+        margin-top: -1px; /* Prevent double borders */
+        border: 1px solid #ddd; /* Add a border to all links */
+        background-color: #ffffff; /* Grey background color */
+        width: 100%;
+        position: relative;
+        height: 110px;
+        display: inline-block;
+    }
+    .brand-name-span {
+        width: 75%;
+        position: relative;
+        display: inline-block;
+    }
+    .brand-name {
+        padding: 10px; /* Add some padding */
+        text-decoration: none; /* Remove default text underline */
+        font-size: 3vw; /* Increase the font-size */
+        color: black; /* Add a black text color */
+        text-align: left;
+    }
+    .brand-thumbnail-span {
+        width: 20%;
+        position: relative;
+        display: inline-block;
+        vertical-align: middle;
+        padding:5px;
+    }
+    .brand-thumbnail {
+        max-height: 100px;
+        max-width:100%;
+        display: block;
+        margin: 0 auto;
+    }
+    #myUL li:hover:not(.sector-header) {
+        background-color: #eee; /* Add a hover effect to all links, except for headers */
+    }
+}
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	#myInput {
+        background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+        background-position: 10px 12px; /* Position the search icon */
+        background-repeat: no-repeat; /* Do not repeat the icon image */
+        width: 100%; /* Full-width */
+        font-size: 16px; /* Increase font-size */
+        padding: 12px 20px 12px 40px; /* Add some padding */
+        border: 1px solid #ddd; /* Add a grey border */
+        margin-bottom: 12px; /* Add some space below the input */
+    }
+    #myUL {
+        /* Remove default list styling */
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+    .section-header {
+        border: 1px solid #ddd; /* Add a border to all links */
+        margin-top: -1px; /* Prevent double borders */
+        background-color: #f6f6f6; /* Grey background color */
+        padding: 12px; /* Add some padding */
+        text-decoration: none; /* Remove default text underline */
+        font-size: 18px; /* Increase the font-size */
+        color: black; /* Add a black text color */
+        display: block; /* Make it into a block element to fill the whole list */
+        cursor: default; /* Change cursor style */
+        height:40px;
+        width: 100%;    
+    }
+    .text-index{
+        margin: 0px 10px; 
+        font-size:2vw;
+    }
+    .section-row{
+        margin-top: -1px; /* Prevent double borders */
+        border: 1px solid #ddd; /* Add a border to all links */
+        background-color: #ffffff; /* Grey background color */
+        width: 100%;
+        position: relative;
+        height: 110px;
+        display: inline-block;
+    }
+    .brand-name-span {
+        width: 75%;
+        position: relative;
+        display: inline-block;
+    }
+    .brand-name {
+        padding: 12px; /* Add some padding */
+        text-decoration: none; /* Remove default text underline */
+        font-size: 24px; /* Increase the font-size */
+        color: black; /* Add a black text color */
+        text-align: left;
+    }
+    .brand-thumbnail-span {
+        width: 20%;
+        position: relative;
+        display: inline-block;
+        vertical-align: middle;
+        padding:5px;
+    }
+    .brand-thumbnail {
+        max-height: 100px;
+        max-width:100%;
+        display: block;
+        margin: 0 auto;
+    }
+    #myUL li:hover:not(.sector-header) {
+        background-color: #eee; /* Add a hover effect to all links, except for headers */
+    }
+}

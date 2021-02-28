@@ -1,0 +1,277 @@
+#commentSection{
+  max-width: 1200px;
+  width: 100%;
+  position: relative;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.thread-header{
+  background-color: #fff;
+  position: sticky;
+  position: -webkit-sticky; /* Safari */
+  top: 0;
+  width: 100%;
+  color: black;
+  font-size: 0px;
+  margin-top: 10px;
+  z-index: 99;
+  transition: background-color  0.5s;
+  border-left: 3px solid #e81f1f;
+}
+
+.changeColor{
+  background-color: #192231;
+  color: white;
+  border-left: 0px;
+}
+.changeLikeButtonColor{
+  color: white;
+}
+.thread-title{
+  font-weight: bold;
+}
+
+.thread-title-action{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.title-save-button, .title-upvote-button, 
+.title-downvote-button, .title-reply-button, 
+.title-sort-button{
+  width: 100%;
+  font-size: 16px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+[id^="likebuttontid_"]{
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  border:none;
+  padding: none;
+  -moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+  -webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+  box-shadow:inset 0px 1px 0px 0px #ffffff;
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #f6f6f6));
+  background:-moz-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+  background:-webkit-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+  background:-o-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+  background:-ms-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+  background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0);
+  background-color:#ffffff;
+  -moz-border-radius:6px;
+  -webkit-border-radius:6px;
+  border-radius:6px;
+  border:1px solid #dcdcdc;
+  display:inline-block;
+  cursor:pointer;
+  color:#666666;
+  font-family:Arial;
+  font-size:15px;
+  font-weight:bold;
+  padding:6px 12px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #ffffff;
+}
+#reply_button{
+  -moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+  -webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+  box-shadow:inset 0px 1px 0px 0px #ffffff;
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #f6f6f6));
+  background:-moz-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+  background:-webkit-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+  background:-o-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+  background:-ms-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+  background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0);
+  background-color:#ffffff;
+  -moz-border-radius:6px;
+  -webkit-border-radius:6px;
+  border-radius:6px;
+  border:1px solid #dcdcdc;
+  display:inline-block;
+  cursor:pointer;
+  color:#666666;
+  font-family:Arial;
+  font-size:15px;
+  font-weight:bold;
+  padding:6px 12px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #ffffff;
+}
+.title-view-button{
+  width: 100%;
+  /*height: 100%;*/
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.title-save-button:hover, .title-upvote-button:hover, 
+.title-downvote-button:hover, .title-reply-button:hover, 
+.title-sort-button:hover{
+  background-color: #f0f0f0;
+}
+
+.changeColor .title-save-button:hover, .changeColor .title-upvote-button:hover, 
+.changeColor .title-downvote-button:hover, .changeColor .title-reply-button:hover, 
+.changeColor .title-sort-button:hover{
+  background-color: #232b38;
+}
+
+.comment-content{
+  display: inline-block;  
+  width: 100%;
+  font-family: "arial";
+}
+
+.comment-link{
+  display: inline-block;  
+  width: 100%;
+  font-family: "arial";
+}
+
+.comment-row .comment-button {
+  border-bottom: 1px solid #eee;
+  margin-bottom: 5px;
+}
+
+.comment-row {
+  border-left: 3px solid #e81f1f;
+  margin-bottom: 10px;
+  padding-left: 12px;
+  padding-top: 2px;
+  word-wrap: break-word;
+  box-shadow: rgb(201, 204, 205) 0px 1px 2px;
+  background-color: #ffffff;
+}
+
+.comment-row .comment-row {
+  box-shadow: none;
+}
+
+img.bbcode_img{
+  max-width: 95%;
+  max-height: 600px;
+  height: auto;
+}
+.bbcode_url{
+  display: block;
+}
+.comment-user-info{
+  font-size: 12px;
+  color: grey;
+  margin-bottom: 10px;
+}
+
+.comment-bottom-section{
+  margin-top: 20px;
+  border-bottom: 1px solid #eee;
+  font-size: 12px;
+}
+
+.comment-action-section {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.comment-reply-toggle{
+  cursor: pointer;
+  color: #0079D3;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.comment-reply-button{
+  display: inline-block;
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.comment-like-button, .comment-dislike-button{
+  position: relative;  
+  cursor: pointer;
+  margin: auto 10px;
+  font-size: 12px;
+}
+
+@media (min-width: 320px) and (max-width: 768px){
+  .thread-title{
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+  }
+
+  .thread-title-action{
+    font-size: 16px;
+    width: 100%;
+    margin-top: 5px;
+    padding-bottom: 10px;
+    height: 50px;
+    border-bottom: solid 1px grey;
+  }
+
+  .comment-content{
+    display: inline-block;
+    max-width: 800px;
+    width: 100%;
+  }
+
+  .comment-link{
+    display: inline-block;
+    max-width: 800px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1200px){
+  .thread-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+  }
+  .thread-title{
+    padding: 10px;
+    font-size: 16px;
+    width: 80%;
+    display: table-cell;
+  }
+
+  .thread-title-action{
+    font-size: 16px;
+    width: 20%;
+  }
+}
+
+@media (min-width: 1200px){
+  .thread-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+  }
+
+  .thread-title{
+    padding: 10px;
+    font-size: 20px;
+    width: 80%;
+    display: table-cell;
+  }
+
+  .thread-title-action{
+    font-size: 16px;
+    width: 20%;
+  }
+
+  .comment-reply-toggle {
+    font-size: 12px;
+  }
+
+}

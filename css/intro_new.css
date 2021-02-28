@@ -1,0 +1,79 @@
+#introSection{
+	max-width: 1200px;
+	position: relative;
+	text-align: center;
+	margin: 0 auto;	
+	height: 100%;
+}
+
+.intro-msg-box-new{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #000;
+  text-align: center;
+  width: 100%;
+}
+
+.intro-main-msg-new{
+  display: block;
+  font-weight: bold;
+}
+
+.intro-sub-msg-new{
+  display: block;
+}
+
+@media screen and (max-width: 600px) {
+
+  	.intro-main-msg-new{
+	  font-size: 44px;
+	}
+	
+	.intro-sub-msg-new{
+	  font-size: 16px;
+	  margin-bottom: 10px;
+	}
+
+}
+
+@media screen and (min-width: 601px) and (max-width: 980px) {
+	
+	.intro-main-msg-new{
+	  font-size: 34px;
+	}
+	
+	.intro-sub-msg-new{
+	  font-size: 14px;
+	  margin-bottom: 10px;
+	}
+
+}
+
+@media screen and (min-width: 981px) and (max-width: 1200px) {
+
+	.intro-main-msg-new{
+	  font-size: 40px;
+	}
+	
+	.intro-sub-msg-new{
+	  font-size: 16px;
+	  margin-bottom: 10px;
+	}
+  
+}
+
+@media screen and (min-width: 1201px){
+	
+	.intro-main-msg-new{
+	  font-size: 40px;
+	}
+	
+	.intro-sub-msg-new{
+	  font-size: 16px;
+	  margin-bottom: 10px;
+	}
+  
+}

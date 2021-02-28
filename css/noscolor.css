@@ -1,0 +1,41 @@
+* {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+
+body, html {
+  height:100%;
+  margin: 0;
+  font-family: Helvetica, Arial, Sans-serif;
+  min-width:320px;        /* Suppose you want minimum width of 1000px */
+  width: auto !important;  /* Firefox will set width as auto */
+  width:320px;            /* As IE6 ignores !important it will set width as 1000px; */
+  /*color: #fff;
+  padding: 0;*/
+  /*background-image: url("Lighter-grey.png");*/
+  /*repeat image horizontally"
+  background-repeat: repeat-x;
+  background-repeat: repeat-y;*/
+}
+
+	
+/*using CSS3 flexbox properties to fix create sticky footer at the bottom*/
+html, body{
+	min-height:100%;
+	display:flex;
+	flex-direction:column;
+}
+
+/*for sticky footer*/
+main.Content-Without-Footer{
+	flex: 1 0 auto;
+}
+
+.anchor{
+  display: block;
+  height: 50px; /*same height as header*/
+  margin-top: -50px; /*same height as header*/
+  visibility: hidden;
+}

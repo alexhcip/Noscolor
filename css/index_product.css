@@ -1,0 +1,34 @@
+#index_product_section{
+	max-width: 1200px;
+	position: relative;
+	text-align: center;
+	margin: 0 auto;	
+}
+#product_list_section {
+	padding: 0;
+	text-align: center;
+	width: 90%;
+	margin: 0px auto;
+	padding-top: 20px;
+	padding-bottom: 20px;  
+}
+.card-img-top {
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+}
+.card-body{
+	flex: unset; /*for keeping product name box height same as others*/
+}
+
+[class^="col-"]{
+	padding: 0 5px;
+	margin: 10px auto;
+}
+
+@media screen and (min-width: 1201px){
+  #product_list_section {
+	width: 100%; 
+  }
+}
+

@@ -1,0 +1,200 @@
+#myInput {
+    background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+    background-position: 10px 12px; /* Position the search icon */
+    background-repeat: no-repeat; /* Do not repeat the icon image */
+    width: 100%; /* Full-width */
+    font-size: 16px; /* Increase font-size */
+    padding: 12px 20px 12px 40px; /* Add some padding */
+    border: 1px solid #ddd; /* Add a grey border */
+    margin-bottom: 12px; /* Add some space below the input */
+}
+ #myUL {
+    /* Remove default list styling */
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+.section-header {
+	text-align: left;
+    border: 1px solid #ddd; /* Add a border to all links */
+    margin-top: -1px; /* Prevent double borders */
+    margin-bottom: 5px;
+    background-color: #f6f6f6; /* Grey background color */
+    padding-left: 20px; /* Add some padding */
+    text-decoration: none; /* Remove default text underline */
+    color: black; /* Add a black text color */
+    display: block; /* Make it into a block element to fill the whole list */
+    cursor: default; /* Change cursor style */
+    height:40px;
+    width: 100%; 
+}
+.Product-Alpha-Tab {
+	width:100%;
+}
+.text-index{
+	margin: 0px 5px;
+}
+.Product-Tabs{
+	text-align: center;
+	position: relative;
+	font-size: 0px;
+}
+.Product-Tab{
+	margin: 0px;
+	padding-bottom: 30px;
+	position: relative;
+	display: inline-block;	
+	background-color: white;
+	border-style: solid;
+	border-width: thin;
+	border-color: #d1d1d1;
+}
+.Product-thumbnail{
+	position:absolute;	
+	top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.card-img-top{
+	position:absolute; 
+	max-height:80%;
+	max-width:80%;
+	left: 50%; 
+	top: 50%; 
+	transform: translate(-50%, -50%);
+}
+.card-overlay{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right:0;
+	width: 100%;
+	background:rgba(255,255,255,0.8);
+	overflow: hidden;
+	height:0;
+	transition: .5s ease;
+}
+#product_name{
+  	color: blue;
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+.Section-title{
+	/*background-color: #4a8dac;*/
+	color:black;
+	font-size: 24px;
+}
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) and (max-width: 479px) {
+	/*start of featured card group styling*/
+	/*Start of featured product styling*/
+	/*start of searchBar and alphabet bar styling*/
+    .section-header {
+        font-size: 24px; /* Increase the font-size */
+    }
+    /*Start of featured product styling*/
+	.text-index{
+		font-size: 24px;
+	}
+	.Product-Tab{
+		padding-top: 49%;
+		width:49%;
+	}
+	#product_name{
+	  	font-size: 14px;
+	}
+	/*end of featured card group styling*/
+	/*Start of table styling*/
+	.Section-title{
+		font-size: 16px;
+	}
+	/*End of table styling*/
+}
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) and (max-width: 767px) {
+	/*start of searchBar and alphabet bar styling*/
+    .section-header {
+        font-size: 24px; /* Increase the font-size */
+    }
+    /*Start of featured product styling*/
+	.text-index{
+		font-size: 24px;
+	}
+	.Product-Tab{
+		padding-top: 32.3%;
+		width:32.3%;
+	}
+	#product_name{
+	  	font-size: 14px;
+	}
+	/*end of featured card group styling*/
+}
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) and (max-width: 991px) {
+	/*start of searchBar and alphabet bar styling*/
+    .section-header {
+        font-size: 24px; /* Increase the font-size */
+    }
+    /*Start of featured product styling*/
+	.text-index{
+		font-size: 24px;
+	}
+	.Product-Tab{
+		padding-top: 32.5%;
+		width:32.5%;
+	}
+	#product_name{
+	  	font-size: 14px;
+	}
+	/*end of featured card group styling*/
+}
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) and (max-width: 1199px) {
+	/*start of searchBar and alphabet bar styling*/
+    .section-header {
+        font-size: 24px; /* Increase the font-size */
+    }
+    /*Start of featured product styling*/
+	.text-index{
+		font-size: 24px;
+	}
+	.Product-Tabs{
+		text-align: center;
+		position: relative;
+		font-size: 0px;
+	}
+	.Product-Tab{
+		padding-top: 16.2%;
+		width:16.2%;
+	}
+	#product_name{
+	  	font-size: 14px;
+	}
+	/*end of featured card group styling*/
+}
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	/*start of searchBar and alphabet bar styling*/
+    .section-header {
+        font-size: 24px; /* Increase the font-size */
+    }
+    /*Start of featured product styling*/
+	.text-index{
+		font-size: 24px;
+	}
+	.Product-Tabs{
+		margin: 0 auto;
+	}
+	.Product-Tab{
+		padding-top: 16.2%;
+		width:16.2%;
+	}
+	#product_name{
+	  	font-size: 14px;
+	}
+	/*end of featured card group styling*/
+}

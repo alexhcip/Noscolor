@@ -1,0 +1,223 @@
+.table-bordered{
+	background-color: #ffffff;
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) and (max-width: 479px) {
+	.userProfile-header{
+		width: 100%;
+		margin-top: 20px;
+		text-align: center;
+		margin-bottom: 10px;
+	}
+	.profile-username{
+		text-align: left;
+		font-size:26px;
+	}
+	.button-inner-text{
+		display: none;
+	}
+	.profile-like{
+		width:50px;
+		position: relative;
+	}
+	.BIGlikebtn, .BIGwishlistbtn, .BIGliketopicbtn{
+		width: 95%;
+		height: 50px;
+	  	padding-top: 15px;
+	  	font-size: 16px;
+	  	line-height: 1;
+		border-radius: 50px;
+	}
+	.profile-wishlist{
+		width:50px;
+		position: relative;
+	}
+	.profile-liked-topic{
+		width:50px;
+		position: relative;
+	}
+	.form-horizontal .control-label{
+		width:20%;
+		text-align: left;
+	}
+	.table>tbody>tr>td{
+		padding: 8px;
+		vertical-align: middle;
+	}
+	.change-username-and-pw{
+		font-size: 14px;
+		width: 100%;
+	}
+}
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) and (max-width: 767px) {
+	.userProfile-header{
+		width: 100%;
+		margin-top: 20px;
+		text-align: center;
+		margin-bottom: 10px;
+	}
+	.profile-username{
+		text-align: left;
+		font-size:26px;
+	}
+	.button-inner-text{
+		display: none;
+	}
+	.profile-like{
+		width:50px;
+		position: relative;
+	}
+	.BIGlikebtn, .BIGwishlistbtn, .BIGliketopicbtn{
+		width: 95%;
+		height: 45px;
+	  	padding-top: 15px;
+	  	font-size: 16px;
+	  	line-height: 1;
+		border-radius: 50px;
+	}
+	.profile-wishlist{
+		width:50px;
+		position: relative;
+	}
+	.profile-liked-topic{
+		width:50px;
+		position: relative;
+	}
+	.form-horizontal .control-label{
+		width:20%;
+		text-align: left;
+	}
+	.table>tbody>tr>td{
+		padding: 8px;
+		vertical-align: middle;
+	}
+	.change-username-and-pw{
+		font-size: 16px;
+		width: 100%;
+	}
+}
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) and (max-width: 991px) {
+	.userProfile-header{
+		width: 100%;
+		margin-top: 20px;
+		text-align: center;
+		margin-bottom: 10px;
+	}
+	.profile-username{
+		text-align: left;
+		font-size:26px;
+	}
+	.profile-like{
+		width:20%;
+		position: relative;
+	}
+	.BIGlikebtn, .BIGwishlistbtn, .BIGliketopicbtn{
+		width: 95%;
+		height: 50px;
+	  	padding-top: 15px;
+	  	font-size: 16px;
+	  	line-height: 1;
+		border-radius: 40px;
+	}
+	.profile-wishlist{
+		width:20%;
+		position: relative;
+	}
+	.profile-liked-topic{
+		width:20%;
+		position: relative;
+	}
+	.form-horizontal .control-label{
+		width:20%;
+		text-align: left;
+	}
+	.table>tbody>tr>td{
+		padding: 8px;
+		vertical-align: middle;
+	}
+}
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) and (max-width: 1199px) {
+	.userProfile-header{
+		width: 100%;
+		margin-top: 20px;
+		text-align: center;
+		margin-bottom: 10px;
+	}
+	.profile-username{
+		text-align: left;
+		font-size:26px;
+	}
+	.profile-like{
+		width:15%;
+		position: relative;
+	}
+	.BIGlikebtn, .BIGwishlistbtn, .BIGliketopicbtn{
+		width: 95%;
+		height: 50px;
+	  	padding-top: 15px;
+	  	font-size: 16px;
+	  	line-height: 1;
+		border-radius: 40px;
+	}
+	.profile-wishlist{
+		width:15%;
+		position: relative;
+	}
+	.profile-liked-topic{
+		width:15%;
+		position: relative;
+	}
+	.form-horizontal .control-label{
+		width:20%;
+		text-align: left;
+	}
+	.table>tbody>tr>td{
+		padding: 8px;
+		vertical-align: middle;
+	}
+}
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	.userProfile-header{
+		width: 100%;
+		margin-top: 20px;
+		text-align: center;
+		margin-bottom: 10px;
+	}
+	.profile-username{
+		text-align: left;
+		font-size:26px;
+	}
+	.profile-like{
+		width:15%;
+		position: relative;
+	}
+	.BIGlikebtn, .BIGwishlistbtn, .BIGliketopicbtn{
+		width: 95%;
+		height: 50px;
+	  	padding-top: 15px;
+	  	font-size: 16px;
+	  	line-height: 1;
+		border-radius: 40px;
+	}
+	.profile-wishlist{
+		width:15%;
+		position: relative;
+	}
+	.profile-liked-topic{
+		width:15%;
+		position: relative;
+	}
+	.form-horizontal .control-label{
+		width:20%;
+		text-align: left;
+	}
+	.table>tbody>tr>td{
+		padding: 8px;
+		vertical-align: middle;
+	}
+}

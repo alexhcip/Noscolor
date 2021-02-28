@@ -1,0 +1,482 @@
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) and (max-width: 479px) {
+	.media{
+		margin-top:5px;
+		position: relative;
+	}
+	.panel{
+		margin-bottom: -1px;
+		position:relative;
+	}
+	/*Start of comment styling*/
+	.media-body{
+		padding-left: 10px;
+		position: relative;
+	}
+	.media-heading{
+		font-size: 4vw;
+	}
+	.media-comment{
+		font-size:3.5vw;
+		margin-bottom: 20px;
+	}
+	.additional-info{
+		position: relative;
+	}
+	.discussion-title{
+		color:#5cb85c;
+		font-size: 3.3vw;
+	}
+	.discussion-title:hover{
+		color:#17b75d;
+	}
+	.button-group{
+		float: right;
+		width: 95%;
+		text-align: right;
+	}
+	.anchor-button{
+		display: inline-block;
+		position: relative;
+	}
+	.check-anchor-button{
+		height: 100%;
+	}
+	.hidden-reply-button{
+		display: inline-block;
+		position: relative;
+	}
+	.hiddenReplyToggle{
+		height: 100%;
+	}
+	.eyeOpenSpecial{
+		font-size: 4vw;
+	}
+	.hidden-reply-message{
+		display: none;
+	}
+	.reply-button{
+		display: inline-block;
+		position: relative;
+	}
+	.replyBoxToggle{
+		height: 100%;
+	}
+	.replyBtn{
+		transform: scaleX(-1); 
+		-moz-transform: scaleX(-1); 
+		-webkit-transform: scaleX(-1); 
+		-ms-transform: scaleX(-1);
+		font-size: 4vw;
+	}
+	.reply-msg{
+		display: none;
+	}
+	.like-button{
+		display: inline-block;
+	}
+	.likebtn{
+		
+	}
+	.timestamp-section{
+		display: none;
+	}
+	.timestamp-content{
+		font-size: 10px;
+	}
+	.clearer{
+		clear: both;
+	}
+	/*End of comment styling*/
+	.reply-section{
+		background-color: #f7f8f9;
+	}
+	.reply-section>.media{
+		border-bottom-width: 1px;
+		border-bottom-color: #cccccc;
+		border-bottom-style: solid;
+		margin:0px;
+	}
+}
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) and (max-width: 767px) {
+	.media{
+		margin-top:5px;
+		position: relative;
+	}
+	.panel{
+		margin-bottom: -1px;
+		position:relative;
+	}
+	/*Start of comment styling*/
+	.media-body{
+		padding-left: 10px;
+		position: relative;
+	}
+	.media-heading{
+		font-size: 3vw;
+	}
+	.media-comment{
+		font-size:2.5vw;
+		margin-bottom: 20px;
+	}
+	.additional-info{
+		position: relative;
+	}
+	.discussion-title{
+		font-size: 2.2vw;
+		color:#5cb85c;
+	}
+	.discussion-title:hover{
+		color:#17b75d;
+	}
+	.button-group{
+		float: right;
+		width: 90%;
+		text-align: right;
+	}
+	.anchor-button{
+		display: inline-block;
+		position: relative;
+	}
+	.check-anchor-button{
+		height: 100%;
+	}
+	.hidden-reply-button{
+		display: inline-block;
+		position: relative;
+	}
+	.hiddenReplyToggle{
+		height: 100%;
+	}
+	.hidden-reply-count{
+		display: none;
+	}
+	.reply-button{
+		display: inline-block;
+		position: relative;
+	}
+	.replyBoxToggle{
+		height: 100%;
+	}
+	.replyBtn{
+		transform: scaleX(-1); 
+		-moz-transform: scaleX(-1); 
+		-webkit-transform: scaleX(-1); 
+		-ms-transform: scaleX(-1);
+	}
+	.like-button{
+		display: inline-block;
+	}
+	.likebtn{
+		
+	}
+	.timestamp-section{
+		display: none;
+	}
+	.timestamp-content{
+		font-size: 10px;
+	}
+	.clearer{
+		clear: both;
+	}
+	/*End of comment styling*/
+	.reply-section{
+		background-color: #f7f8f9;
+	}
+	.reply-section>.media{
+		border-bottom-width: 1px;
+		border-bottom-color: #cccccc;
+		border-bottom-style: solid;
+		margin:0px;
+	}
+}
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) and (max-width: 991px) {
+	.media{
+		margin-top:5px;
+		position: relative;
+	}
+	.panel{
+		margin-bottom: -1px;
+		position:relative;
+	}
+	/*Start of comment styling*/
+	.media-body{
+		padding-left: 10px;
+		position: relative;
+	}
+	.media-heading{
+		font-size:2.2vw;
+		margin-bottom: 20px;
+	}
+	.media-comment{
+		font-size:2vw;
+		margin-bottom: 20px;
+	}
+	.additional-info{
+		position: relative;
+	}
+	.discussion-title{
+		font-size: 1.8vw;
+		color:#5cb85c;
+	}
+	.discussion-title:hover{
+		color:#17b75d;
+	}
+	.button-group{
+		float: right;
+		width: 80%;
+		text-align: right;
+	}
+	.anchor-button{
+		display: inline-block;
+		position: relative;
+	}
+	.check-anchor-button{
+		height: 100%;
+	}
+	.hidden-reply-button{
+		display: inline-block;
+		position: relative;
+	}
+	.hiddenReplyToggle{
+		height: 100%;
+	}
+	.hidden-reply-count{
+		display: none;
+	}
+	.reply-button{
+		display: inline-block;
+		position: relative;
+	}
+	.replyBoxToggle{
+		height: 100%;
+	}
+	.replyBtn{
+		transform: scaleX(-1); 
+		-moz-transform: scaleX(-1); 
+		-webkit-transform: scaleX(-1); 
+		-ms-transform: scaleX(-1);
+	}
+	.like-button{
+		display: inline-block;
+	}
+	.timestamp-section{
+		position: absolute;
+		bottom: 0;
+		left: 0;
+	}
+	.timestamp-content{
+		font-size: 10px;
+	}
+	.clearer{
+		clear: both;
+	}
+	/*End of comment styling*/
+	.reply-section{
+		background-color: #f7f8f9;
+	}
+	.reply-section>.media{
+		border-bottom-width: 1px;
+		border-bottom-color: #cccccc;
+		border-bottom-style: solid;
+		margin:0px;
+	}
+}
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) and (max-width: 1199px) {
+	.media{
+		margin-top:5px;
+		position: relative;
+	}
+	.panel{
+		margin-bottom: -1px;
+		position:relative;
+	}
+	/*Start of comment styling*/
+	.media-body{
+		padding-left: 10px;
+		position: relative;
+	}
+	.media-heading{
+		font-size:1.8vw;
+		margin-bottom: 20px;
+	}
+	.media-comment{
+		font-size:1.5vw;
+		margin-bottom: 20px;
+	}
+	.additional-info{
+		position: relative;
+	}
+	.discussion-title{
+		color:#5cb85c;
+	}
+	.discussion-title:hover{
+		color:#17b75d;
+	}
+	.button-group{
+		float: right;
+		width: 80%;
+		text-align: right;
+	}
+	.anchor-button{
+		display: inline-block;
+		position: relative;
+	}
+	.check-anchor-button{
+		height: 100%;
+	}
+	.hidden-reply-button{
+		display: inline-block;
+		position: relative;
+	}
+	.hiddenReplyToggle{
+		height: 100%;
+	}
+	.hidden-reply-count{
+		display: none;
+	}
+	.reply-button{
+		display: inline-block;
+		position: relative;
+	}
+	.replyBoxToggle{
+		height: 100%;
+	}
+	.replyBtn{
+		transform: scaleX(-1); 
+		-moz-transform: scaleX(-1); 
+		-webkit-transform: scaleX(-1); 
+		-ms-transform: scaleX(-1);
+	}
+	.like-button{
+		display: inline-block;
+	}
+	.timestamp-section{
+		position: absolute;
+		bottom: 0;
+		left: 0;
+	}
+	.timestamp-content{
+		font-size: 10px;
+	}
+	.clearer{
+		clear: both;
+	}
+	/*End of comment styling*/
+	.reply-section{
+		background-color: #f7f8f9;
+	}
+	.reply-section>.media{
+		border-bottom-width: 1px;
+		border-bottom-color: #cccccc;
+		border-bottom-style: solid;
+		margin:0px;
+	}
+}
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	.media{
+		margin-top:5px;
+		position: relative;
+	}
+	.panel{
+		margin-bottom: -1px;
+		position:relative;
+	}
+	/*Start of comment styling*/
+	.media-body{
+		/*padding-bottom: 30px;*/
+		padding-left: 10px;
+		position: relative;
+	}
+	.media-heading{
+		font-size:1.2vw;
+		margin-bottom: 20px;
+	}
+	.media-comment{
+		font-size:1vw;
+		margin-bottom: 20px;
+	}
+	.additional-info{
+		position: relative;
+	}
+	.discussion-title{
+		color:#5cb85c;
+	}
+	.discussion-title:hover{
+		color:#17b75d;
+	}
+	.button-group{
+		float: right;
+		width: 80%;
+		text-align: right;
+	}
+	.hidden-reply-button{
+		display: inline-block;
+		position: relative;
+	}
+	.hiddenReplyToggle{
+		height: 100%;
+	}
+	.hiddenReplyToggle:hover+.toggle-info{
+    	display: block;
+	}
+	.hidden-reply-count{
+		display: none;
+	}
+	.anchor-button{
+		display: inline-block;
+		position: relative;
+	}
+	.check-anchor-button{
+		height: 100%;
+	}
+	.reply-button{
+		display: inline-block;
+		position: relative;
+	}
+	.replyBoxToggle{
+		height: 100%;
+	}
+	.replyBoxToggle:hover+.toggle-info{
+    	display: block;
+	}
+	.replyBtn{
+		transform: scaleX(-1); 
+		-moz-transform: scaleX(-1); 
+		-webkit-transform: scaleX(-1); 
+		-ms-transform: scaleX(-1);
+	}
+	.like-button{
+		display: inline-block;
+	}
+	.timestamp-section{
+		position: absolute;
+		bottom: 0;
+		left: 0;
+	}
+	.timestamp-content{
+		font-size: 10px;
+	}
+	.clearer{
+		clear: both;
+	}
+	/*End of comment styling*/
+	.reply-section{
+		background-color: #f7f8f9;
+	}
+	.reply-section>.media{
+		border-bottom-width: 1px;
+		border-bottom-color: #cccccc;
+		border-bottom-style: solid;
+		margin:0px;
+	}
+	.toggle-info{
+		background-color: grey;
+		color: white;
+    	display: none;
+	}
+}

@@ -1,0 +1,51 @@
+button.comment-likebtn[type="button"][aria-pressed="false"], button.title-likebtn[type="button"][aria-pressed="false"], button.wishbtn[type="button"][aria-pressed="false"]  {
+    background-color: transparent;
+    -webkit-box-shadow: none;
+	-moz-box-shadow: none;
+    box-shadow: none;
+    /*border: 0;*/
+    /*padding: 0;*/
+}
+
+button.comment-likebtn[type="button"][aria-pressed="true"], button.title-likebtn[type="button"][aria-pressed="true"] {
+    background-color: transparent;
+    -webkit-box-shadow: none;
+	-moz-box-shadow: none;
+    box-shadow: none;
+    /*border: 0;*/
+	color:  #ff4747;
+/*	padding: 0;*/
+}
+
+button.wishbtn[type="button"][aria-pressed="true"] {
+    background-color: #5bc0de;
+    color: white;
+}
+
+a.official-link{
+	background-color: #5DD39E;
+    color: white;
+}
+
+a.incidecoder-link{
+    background-color: #a984b2;
+    color: white;
+}
+
+button.likebtn[type="button"][aria-pressed="false"] {
+    background-color: #cccccc;
+}
+
+button.likebtn[type="button"][aria-pressed="true"] {
+    background-color: #ff4747;
+    color: white;
+}
+
+button.wishbtn[type="button"][aria-pressed="false"] {
+    background-color: #cccccc;
+}
+
+button.wishbtn[type="button"][aria-pressed="true"] {
+    background-color: #5bc0de;
+    color: white;
+}

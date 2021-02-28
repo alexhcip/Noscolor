@@ -1,0 +1,105 @@
+#welcomeSection{
+	max-width: 1200px;
+	position: relative;
+	text-align: center;
+	margin: 0 auto;	
+	height: 100%;
+}
+
+.desktop-msg-box{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+  width: 55%;
+}
+
+.desktop-main-msg{
+  display: block;
+  font-weight: bold;
+}
+
+.desktop-sub-msg{
+  display: block;
+}
+
+@media screen and (max-width: 600px) {
+	.desktop-msg-box{
+	  width: 90%;
+	}
+
+  	.desktop-main-msg{
+	  font-size: 38px;
+	}
+	
+	.desktop-sub-msg{
+	  font-size: 14px;
+	  margin-bottom: 10px;
+	}
+
+	#welcome_login{
+		width: 90%;
+	}
+}
+
+@media screen and (min-width: 601px) and (max-width: 980px) {
+	.desktop-msg-box{
+	  width: 80%;
+	}
+
+	.desktop-main-msg{
+	  font-size: 34px;
+	}
+	
+	.desktop-sub-msg{
+	  font-size: 14px;
+	  margin-bottom: 10px;
+	}
+
+	#welcome_login{
+		width: 120px;
+	}
+}
+
+@media screen and (min-width: 981px) and (max-width: 1200px) {
+
+	.desktop-msg-box{
+	  width: 65%;
+	}
+
+	.desktop-main-msg{
+	  font-size: 40px;
+	}
+	
+	.desktop-sub-msg{
+	  font-size: 16px;
+	  margin-bottom: 10px;
+	}
+
+	#welcome_login{
+		width: 120px;
+	}
+  
+}
+
+@media screen and (min-width: 1201px){
+	.desktop-msg-box{
+		width: 55%;
+	}
+	.desktop-main-msg{
+	  font-size: 40px;
+	}
+	
+	.desktop-sub-msg{
+	  font-size: 16px;
+	  margin-bottom: 10px;
+	}
+
+	#welcome_login{
+		width: 120px;
+	}
+  
+}

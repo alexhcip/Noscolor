@@ -1,0 +1,565 @@
+.background {
+	font-family: 'Savoy', 'Georgia', 'serif';
+    letter-spacing: 0.075em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    text-transform: capitalize;
+    font-style: italic;
+    position: relative;
+    z-index: 1;
+}
+
+#welcomeSection{
+	
+}
+
+.double span { 
+        /* to hide the lines from behind the text, you have to set the background color the same as the container */ 
+        background: #fff; 
+        padding: 0 15px; 
+}
+.double:after {
+    border-bottom: 1px solid black;
+    /*-webkit-box-shadow: 0 1px 0 0 black;
+    -moz-box-shadow: 0 1px 0 0 black;
+    box-shadow: 0 1px 0 0 black;*/
+    content: "";
+    margin: 0 auto; /* this centers the line to the full width specified */
+    position: absolute;
+    top: 45%; left: 0; right: 0;
+    z-index: -1;
+}
+#addTopicSpan {
+  	padding: 0px 0px;
+  	margin:0px;
+}
+#addTopic{
+	height: 35px;
+	width: 100%;
+	font-family: Arial;
+	font-size: 16px;
+	background: transparent;
+	background-color: #3cc47c;
+	color: white;
+	border: 0;
+	margin: 0;
+	padding: 0px 10px;
+}
+th.Forum-Date-Heading, td.Forum-Date-Heading{
+	display: none;
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) and (max-width: 479px) {
+	.container{
+		padding:0px;
+	}
+	#myCarousel{
+		display: none;
+	}
+	.searchBox-dropdown-display{
+		display: none;
+	}
+	/*#salesSection{
+		display:none;
+	}*/
+	#featured_card_section {
+		padding-top: 0px;
+	}
+	.background{
+		color: black;
+		font-size: 24px;
+	}
+	.double:after {
+		width: 100%;
+	}
+	.Section-title{
+		/*background-color: #4a8dac;*/
+		padding-left: 8px;
+		color:black;
+		font-size: 36px;
+	}
+	.brand-footer{
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		background-color: #0b3c5d;
+		height:30px;
+		text-align: left;
+		padding:0 5px;
+	}
+	#card_footer_text_area{
+		display: inline;
+		vertical-align: middle;
+		font-size: 14px;
+	}
+	.text-muted{
+		color: #ffffff;
+	}
+	#comment_count_icon{
+		position: relative;
+		color: #3cc47c;
+	}
+	.Forum-table-header{
+		display: flex;
+	    align-items: stretch; /* Default */
+	    justify-content: space-between;
+	    width: 100%;
+	    margin: 0;
+	    padding: 0;
+	    position: relative;
+	}
+	.Forum-table-header li{
+		display: block;
+	    flex: 0 1 auto; /* Default */
+	    list-style-type: none;
+	}
+	#quick_comment_section{
+		display:none;
+	}
+	.Section-title{
+		/*background-color: #4a8dac;*/
+		color:black;
+		font-size: 20px;
+	}
+	table{
+		font-size:4vw;
+	}
+	.Forum-options{
+		width:100%;
+		position: relative;
+	}
+	.Forum-ordering-button{
+		width: 100%;	
+		margin-bottom: 0px;
+	}
+	#orderingSelect{
+		height: 35px;
+		margin: 0px;
+		font-size: 14px;
+	}
+	.Forum-more-button{
+		margin: 0px;
+		font-size: 5vw;
+	}
+}
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) and (max-width: 767px) {
+	.container{
+		min-width: 90%;
+	}
+	#myCarousel{
+		display: none;
+	}
+	.searchBox-dropdown-display{
+		display: none;
+	}
+	/*Start of brand tabs styling*/
+	#featured_card_section {
+		padding-top: 20px;
+	}
+	.background{
+		color:black;
+		font-size: 24px;
+	}
+	.double:after {
+		width: 100%;
+	}
+	.Section-title{
+		/*background-color: #4a8dac;*/
+		color:black;
+		font-size: 20px;
+	}
+	/*.Brand-Tabs{
+		text-align: center;
+		position: relative;
+		font-size: 0px;
+	}
+	.Brand-Tab{
+		margin: 0px;
+		padding-top: 25%;
+		width:25%;
+		position: relative;
+		display: inline-block;
+		background-color: white;
+		border-right-style: solid;
+		border-right-width: thin;
+		border-right-color: #d1d1d1;
+	}
+	.Brand-thumbnail{
+		height:152px;
+		position:absolute;	
+		top: 0;
+	    left: 0;
+	    bottom: 0;
+	    right: 0;
+	}*/
+	.brand-footer{
+		position: absolute;
+		width: 100%;
+		bottom: 0;
+		right: 0;
+		background-color: #0b3c5d;
+		height:20px;
+		padding:0 5px;
+	}
+	#card_footer_text_area{
+		display: inline;
+		vertical-align: middle;
+		font-size: 12px;
+	}
+	.text-muted{
+		color: #ffffff;
+	}
+	#comment_count_icon{
+		position: relative;
+		color: #3cc47c;
+	}
+	/*.card-overlay{
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		background:rgba(12,12,12,0.0);
+		padding:5px;
+	}
+	#brand_overlaying_text{
+		font-family: 'Josefin Slab', 'Arial Black', 'Gill Sans';
+		color: #ab9353;
+		font-size: 2vw;
+		text-align: left;
+		/*text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;*/
+	/*}
+	.card-img-top{
+		position:absolute; 
+		max-height:140px;
+		left: 50%; 
+		top: 50%; 
+		transform: translate(-50%, -50%);
+	}*/
+	/*End of Brand Tabs styling */
+	/*Start of table styling*/
+	.Forum-table-header{
+		display: flex;
+	    align-items: stretch; /* Default */
+	    justify-content: space-between;
+	    width: 100%;
+	    margin: 0;
+	    padding: 0;
+	    position: relative;
+	}
+	.Forum-table-header li{
+		display: block;
+	    flex: 0 1 auto; /* Default */
+	    list-style-type: none;
+	}
+	.Forum-more-button{
+		font-size: 20px;
+	}
+	.container{
+		padding: 0px;
+	}
+	/*End of table styling*/
+}
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) and (max-width: 991px) {
+	.container{
+		min-width: 90%;
+	}
+	.searchBox-dropdown-display{
+		display: none;
+	}
+	/*Start of Carousel styling*/
+	.carousel-indicators li{
+		background-color: #999;
+		border-color: #999;
+	}
+	.carousel-indicators .active{
+		background-color: #337ab7;
+		border-color: #337ab7;
+	}
+	.carousel-img{
+		display: block;
+    	margin: auto;
+    	width: 100%;
+	}
+	.carousel-control{
+		width:5%;
+	}
+	/*End of Carousel styling*/
+	/*Start of brand tabs styling*/
+	#featured_card_section {
+		padding-top: 20px;
+	}
+	.background{
+		color:black;
+		font-size: 24px;
+	}
+	.double:after {
+		width: 80%;
+	}
+	.Section-title{
+		/*background-color: #4a8dac;*/
+		color:black;
+		font-size: 24px;
+	}
+	.brand-footer{
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		background-color: #0b3c5d;
+		height:30px;
+		text-align: left;
+		padding:0 5px;
+	}
+	#card_footer_text_area{
+		display: inline;
+		vertical-align: middle;
+		font-size: 14px;
+	}
+	.text-muted{
+		color: #ffffff;
+	}
+	#comment_count_icon{
+		position: relative;
+		color: #3cc47c;
+	}
+	/*End of Brand Tabs styling */
+	/*Start of table styling*/
+	.Forum-table-header{
+		display: flex;
+	    align-items: stretch; /* Default */
+	    justify-content: space-between;
+	    width: 100%;
+	    margin: 0;
+	    padding: 0;
+	    position: relative;
+	}
+	.Forum-table-header li{
+		display: block;
+	    flex: 0 1 auto; /* Default */
+	    list-style-type: none;
+	}
+	.Forum-more-button{
+		font-size: 20px;
+	}
+	.container{
+		padding: 0px;
+	}
+	/*End of table styling*/
+}
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) and (max-width: 1199px) {
+	.searchBox-dropdown-display{
+		display: none;
+	}
+	/*Start of Carousel styling*/
+	.carousel-indicators li{
+		background-color: #999;
+		border-color: #999;
+	}
+	.carousel-indicators .active{
+		background-color: #337ab7;
+		border-color: #337ab7;
+	}
+	.carousel-img{
+		display: block;
+    	margin: auto;
+    	width: 100%;
+	}
+	.carousel-control{
+		width:5%;
+	}
+	/*End of Carousel styling*/
+	/*Start of brand tabs styling*/
+	#featured_card_section {
+		padding-top: 20px;
+	}
+	.background{
+		color:black;
+		font-size: 30px;
+	}
+	.double:after {
+		width: 70%;
+	}
+	.Section-title{
+		/*background-color: #4a8dac;*/
+		color:black;
+		font-size: 30px;
+	}
+	.brand-footer{
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		background-color: #0b3c5d;
+		height:20px;
+		padding:0 5px;
+	}
+	#card_footer_text_area{
+		display: inline;
+		vertical-align: middle;
+		font-size: 14px;
+	}
+	.text-muted{
+		display: none;
+	}
+	#comment_count_icon{
+		position: relative;
+		color: #3cc47c;
+	}
+	/*End of Brand Tabs styling */
+	/*Start of table styling*/
+	.Forum-table-header{
+		display: flex;
+	    align-items: stretch; /* Default */
+	    justify-content: space-between;
+	    width: 100%;
+	    margin: 0;
+	    padding: 0;
+	    position: relative;
+	}
+	.Forum-table-header li{
+		display: block;
+	    flex: 0 1 auto; /* Default */
+	    list-style-type: none;
+	}
+	.Forum-ordering-button{
+		display: inline-block;
+		width: 30%;	
+		margin-bottom: 0px;
+	}
+	#orderingSelect{
+		height: 35px;
+	}
+	.Forum-more-button{
+		font-size: 20px;
+	}
+	.container{
+		padding: 0px;
+	}
+	/*End of table styling*/
+}
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	.searchBox-dropdown-display{
+		display: none;
+	}
+	/*Start of Carousel styling*/
+	.carousel-indicators li{
+		background-color: #999;
+		border-color: #999;
+	}
+	.carousel-indicators .active{
+		background-color: #337ab7;
+		border-color: #337ab7;
+	}
+	.carousel-img{
+		display: block;
+    	margin: auto;
+    	width: 100%;
+	}
+	.carousel-control{
+		width:5%;
+	}
+	/*End of Carousel styling*/
+	/*Start of brand tabs styling*/
+	#featured_card_section {
+		padding-top: 20px;
+	}
+	.background{
+		color:black;
+		font-size: 36px;
+	}
+	.double:after {
+		width: 60%;
+	}
+	.Section-title{
+		/*background-color: #4a8dac;*/
+		color:black;
+		font-size: 36px;
+	}
+	.brand-footer{
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		background-color: #0b3c5d;
+		height:30px;
+		text-align: left;
+		padding:0 5px;
+	}
+	#card_footer_text_area{
+		display: inline;
+		vertical-align: middle;
+		font-size: 14px;
+	}
+	.text-muted{
+		color: #ffffff;
+	}
+	#comment_count_icon{
+		position: relative;
+		color: #3cc47c;
+	}
+	/*End of Brand Tabs styling */
+	/*Start of table styling*/
+	/*.Forum-options{
+		width:100%;
+		position: relative;
+	}
+	ul.forum-handler {
+	    list-style-type: none;
+	    margin: 0;
+	    padding: 0;
+	    height:40px;
+	}
+	li.forum-handler{
+	    float: left;
+	}*/
+	/* Dropdown Button */
+	/*li.forum-handler form, li.forum-handler a{
+	    display: block;
+	    text-decoration: none;
+	}*/
+	.Forum-table-header{
+		display: flex;
+	    align-items: stretch; /* Default */
+	    justify-content: space-between;
+	    width: 100%;
+	    margin: 0;
+	    padding: 0;
+	    position: relative;
+	}
+	.Forum-table-header li{
+		display: block;
+	    flex: 0 1 auto; /* Default */
+	    list-style-type: none;
+	}
+	#addTopic{
+		height: 35px;
+		width: 100%;
+		font-family: Arial;
+		font-size: 16px;
+		background: transparent;
+		background-color: #3cc47c;
+		color: white;
+		border: 0;
+		margin: 0;
+		padding: 0px 10px;
+	}
+	.Forum-ordering-button{
+		display: inline-block;
+		width: 30%;	
+		margin-bottom: 0px;
+	}
+	#orderingSelect{
+		height: 35px;
+	}
+	.Forum-more-button{
+		font-size: 20px;
+	}
+	.container{
+		padding: 0px;
+		max-width: 1200px;
+		width: 100%; 
+	}
+	/*End of table styling*/
+}

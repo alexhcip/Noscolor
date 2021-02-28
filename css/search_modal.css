@@ -1,0 +1,29 @@
+input.header-searchBar{
+  width: 100%;
+  display: inline-block;
+  height:40px;
+  margin: 0px;
+  padding: 4px;
+  border: 0px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password]{
+  margin-bottom: 15px; 
+  padding: 0px 4px;
+  width: 100%;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.searchBox-dropdown-display{display: none;}
+li.profile{float: right;}
+li.header-login{
+  cursor: pointer;
+  float: right;
+  display: inline-block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}

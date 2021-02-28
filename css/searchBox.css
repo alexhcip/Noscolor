@@ -1,0 +1,146 @@
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) and (max-width: 479px) {
+	.brand{
+		height: 60px; 
+		position: relative;
+	}
+	.product{
+		height: 60px; 
+		position: relative;
+	}
+	.name{
+		font-size: 10px; 
+		margin: 0; 
+		position: absolute; 
+		top: 50%; 
+		left: 40%; 
+		transform: translateY(-50%);
+	}
+	.dropdown-thumbnail{
+		width: 58px; 
+		max-height: 58px; 
+		position: relative; 
+		top: 50%; 
+		left: 2%; 
+		transform: translateY(-50%); 
+		vertical-align: middle;
+	}
+}
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) and (max-width: 767px) {
+	.brand{
+		height: 70px; 
+		position: relative;
+	}
+	.product{
+		height: 70px; 
+		position: relative;
+	}
+	.name{
+		font-size: 12px; 
+		margin: 0; 
+		position: absolute; 
+		top: 50%; 
+		left: 30%; 
+		transform: translateY(-50%);
+	}
+	.dropdown-thumbnail{
+		width: 68px; 
+		max-height: 68px; 
+		position: relative; 
+		top: 50%; 
+		left: 2%; 
+		transform: translateY(-50%); 
+		vertical-align: middle;
+	}
+}
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) and (max-width: 991px) {
+	.brand{
+		height: 80px; 
+		position: relative;
+	}
+	.product{
+		height: 80px; 
+		position: relative;
+	}
+	.name{
+		font-size: 14px; 
+		margin: 0; 
+		position: absolute; 
+		top: 50%; 
+		left: 25%; 
+		transform: translateY(-50%);
+	}
+	.dropdown-thumbnail{
+		width: 78px; 
+		max-height: 78px; 
+		position: relative; 
+		top: 50%; 
+		left: 2%; 
+		transform: translateY(-50%); 
+		vertical-align: middle;
+	}
+}
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) and (max-width: 1199px) {
+	.brand{
+		height: 100px; 
+		position: relative;
+	}
+	.product{
+		height: 100px; 
+		position: relative;
+	}
+	.name{
+		font-size: 16px; 
+		margin: 0; 
+		position: absolute; 
+		top: 50%; 
+		left: 25%; 
+		transform: translateY(-50%);
+	}
+	.dropdown-thumbnail{
+		width: 98px; 
+		max-height: 98px; 
+		position: relative; 
+		top: 50%; 
+		left: 2%; 
+		transform: translateY(-50%); 
+		vertical-align: middle;
+	}
+}
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	.brand{
+		height: 100px; 
+		position: relative;
+	}
+	.product{
+		height: 100px; 
+		position: relative;
+	}
+	.name-div{
+		width:80%;
+	}
+	.name{
+		font-size: 16px; 
+		margin: 0; 
+		position: absolute; 
+		top: 50%; 
+		left: 20%; 
+		transform: translateY(-50%);
+	}
+	.thumbnail-div{
+		width: 20%;
+		text-align: center;
+	}
+	.dropdown-thumbnail{
+		max-width: 95px; 
+		max-height: 95px; 
+		position: relative; 
+		top: 50%; 
+		left: 2%; 
+		transform: translateY(-50%); 
+	}
+}

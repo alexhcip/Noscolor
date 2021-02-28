@@ -1,0 +1,60 @@
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) and (max-width: 479px) {
+	.error-heading{
+		font-size: 20px;
+	}
+	.error-image{
+		width:100%;
+	}
+	.error-message{
+		font-size: 20px;
+	}
+}
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) and (max-width: 767px) {
+	.error-heading{
+		font-size: 20px;
+	}
+	.error-image{
+		width:80%;
+	}
+	.error-message{
+		font-size: 20px;
+	}
+}
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) and (max-width: 991px) {
+	.error-heading{
+		font-size: 20px;
+	}
+	.error-image{
+		width:70%;
+	}
+	.error-message{
+		font-size: 20px;
+	}
+}
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) and (max-width: 1199px) {
+	.error-heading{
+		font-size: 20px;
+	}
+	.error-image{
+		width:50%;
+	}
+	.error-message{
+		font-size: 20px;
+	}
+}
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	.error-heading{
+		font-size: 20px;
+	}
+	.error-image{
+		width:50%;
+	}
+	.error-message{
+		font-size: 20px;
+	}
+}

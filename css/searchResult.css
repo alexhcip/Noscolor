@@ -1,0 +1,397 @@
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) and (max-width: 479px) {
+	/*start of featured card group styling*/
+	#myUL {
+        /* Remove default list styling */
+        list-style-type: none;
+        padding: 0;
+        text-align: center;
+    }
+	/*Start of featured product styling*/
+	.Product-Alpha-Tab {
+		width:100%;
+	}
+	#featured_card_section {
+		padding-top: 20px;
+	}
+	.Product-Tabs{
+		text-align: center;
+		position: relative;
+		font-size: 0px;
+	}
+	.Product-Tab{
+		margin: 0px;
+		padding-top: 49%;
+		padding-bottom: 30px;
+		width:49%;
+		position: relative;
+		display: inline-block;	
+		background-color: white;
+		border-style: solid;
+		border-width: thin;
+		border-color: #d1d1d1;
+	}
+	/*.Product-Tab:hover .card-overlay{
+		height: 100%
+	}*/
+	.Product-thumbnail{
+		position:absolute;	
+		top: 0;
+	    left: 0;
+	    bottom: 0;
+	    right: 0;
+	}
+	.card-img-top{
+		position:absolute; 
+		max-height:180px;
+		left: 50%; 
+		top: 50%; 
+		transform: translate(-50%, -50%);
+	}
+	.card-overlay{
+		/*position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background:rgba(255,255,255,0.8);
+		overflow: hidden;
+		width: 100%;
+		height: 0;
+	 	transition: .5s ease;*/
+	}
+	#product_name{
+		color: blue;
+	  	font-size: 2vw;
+	  	position: absolute;
+  		bottom: 0;
+  		left: 0;
+  		width: 100%;
+	  	/*color: blue;
+	  	font-size: 2vw;
+	  	position: absolute;
+	  	top: 50%;
+	  	left: 50%;
+	  	transform: translate(-50%, -50%);
+	    -ms-transform: translate(-50%, -50%);*/
+	}
+	/*end of featured card group styling*/
+	/*Start of table styling*/
+	.Section-title{
+		/*background-color: #4a8dac;*/
+		color:black;
+		font-size: 16px;
+	}
+	/*End of table styling*/
+}
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) and (max-width: 767px) {
+	/*start of featured card group styling*/
+	#myUL {
+        /* Remove default list styling */
+        list-style-type: none;
+        padding: 0;
+        text-align: center;
+    }
+	/*Start of featured product styling*/
+	.Product-Alpha-Tab {
+		width:100%;
+	}
+	#featured_card_section {
+		padding-top: 20px;
+	}
+	.Product-Tabs{
+		text-align: center;
+		position: relative;
+		font-size: 0px;
+	}
+	.Product-Tab{
+		margin: 0px;
+		padding-top: 32%;
+		padding-bottom: 30px;
+		width:32%;
+		position: relative;
+		display: inline-block;	
+		background-color: white;
+		border-style: solid;
+		border-width: thin;
+		border-color: #d1d1d1;
+	}
+	/*.Product-Tab:hover .card-overlay{
+		height: 100%
+	}*/
+	.Product-thumbnail{
+		position:absolute;	
+		top: 0;
+	    left: 0;
+	    bottom: 0;
+	    right: 0;
+	}
+	.card-img-top{
+		position:absolute; 
+		max-height:180px;
+		left: 50%; 
+		top: 50%; 
+		transform: translate(-50%, -50%);
+	}
+	.card-overlay{
+		/*position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background:rgba(255,255,255,0.5);
+		overflow: hidden;
+		width: 100%;
+		height: 0;
+	 	transition: .5s ease;*/
+	}
+	#product_name{
+	  	color: blue;
+	  	font-size: 2vw;
+	  	position: absolute;
+  		bottom: 0;
+  		left: 0;
+  		width: 100%;
+	}
+	/*end of featured card group styling*/
+	/*Start of table styling*/
+	.Section-title{
+		/*background-color: #4a8dac;*/
+		color:black;
+		font-size: 24px;
+	}
+	/*End of table styling*/
+}
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) and (max-width: 991px) {
+	/*start of featured card group styling*/
+	#myUL {
+        /* Remove default list styling */
+        list-style-type: none;
+        padding: 0;
+        text-align: center;
+    }
+	/*Start of featured product styling*/
+	.Product-Alpha-Tab {
+		width:100%;
+	}
+	#featured_card_section {
+		padding-top: 20px;
+	}
+	.Product-Tabs{
+		text-align: center;
+		position: relative;
+		font-size: 0px;
+	}
+	.Product-Tab{
+		margin: 0px;
+		padding-top: 24%;
+		padding-bottom: 30px;
+		width:24%;
+		position: relative;
+		display: inline-block;	
+		background-color: white;
+		border-style: solid;
+		border-width: thin;
+		border-color: #d1d1d1;
+	}
+	/*.Product-Tab:hover .card-overlay{
+		height: 100%
+	}*/
+	.Product-thumbnail{
+		position:absolute;	
+		top: 0;
+	    left: 0;
+	    bottom: 0;
+	    right: 0;
+	}
+	.card-img-top{
+		position:absolute; 
+		max-height:180px;
+		left: 50%; 
+		top: 50%; 
+		transform: translate(-50%, -50%);
+	}
+	.card-overlay{
+		/*position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background:rgba(255,255,255,0.8);
+		overflow: hidden;
+		width: 100%;
+		height: 0;
+	 	transition: .5s ease;*/
+	}
+	#product_name{
+	  	color: blue;
+	  	font-size: 1.5vw;
+	  	position: absolute;
+  		bottom: 0;
+  		left: 0;
+  		width: 100%;
+	}
+	/*end of featured card group styling*/
+	/*Start of table styling*/
+	.Section-title{
+		/*background-color: #4a8dac;*/
+		color:black;
+		font-size: 24px;
+	}
+	/*End of table styling*/
+}
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) and (max-width: 1199px) {
+	/*start of featured card group styling*/
+	#myUL {
+        /* Remove default list styling */
+        list-style-type: none;
+        padding: 0;
+        text-align: center;
+    }
+	/*Start of featured product styling*/
+	.Product-Alpha-Tab {
+		width:100%;
+	}
+	#featured_card_section {
+		padding-top: 20px;
+	}
+	.Product-Tab{
+		margin: 0px;
+		padding-top: 16%;
+		padding-bottom: 30px;
+		width:16%;
+		position: relative;
+		display: inline-block;	
+		background-color: white;
+		border-style: solid;
+		border-width: thin;
+		border-color: #d1d1d1;
+	}
+	/*.Product-Tab:hover .card-overlay{
+		height: 100%
+	}*/
+	.Product-thumbnail{
+		position:absolute;	
+		top: 0;
+	    left: 0;
+	    bottom: 0;
+	    right: 0;
+	}
+	.card-img-top{
+		position:absolute; 
+		max-height:180px;
+		left: 50%; 
+		top: 50%; 
+		transform: translate(-50%, -50%);
+	}
+	.card-overlay{
+		/*position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background:rgba(255,255,255,0.8);
+		overflow: hidden;
+		width: 100%;
+		height: 0;
+	 	transition: .5s ease;*/
+	}
+	#product_name{
+	  	color: blue;
+	  	font-size: 1.5vw;
+	  	position: absolute;
+  		bottom: 0;
+  		left: 0;
+  		width: 100%;
+	}
+	/*end of featured card group styling*/
+	/*Start of table styling*/
+	.Section-title{
+		/*background-color: #4a8dac;*/
+		color:black;
+		font-size: 24px;
+	}
+	/*End of table styling*/
+}
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	/*start of featured card group styling*/
+	#myUL {
+        /* Remove default list styling */
+        list-style-type: none;
+        padding: 0;
+        text-align: center;
+    }
+	/*Start of featured product styling*/
+	#featured_card_section {
+		padding-top: 20px;
+	}
+	.Product-Alpha-Tab {
+		width:100%;
+	}
+	.Product-Tabs{
+		text-align: center;
+		position: relative;
+		font-size: 0px;
+		margin: 0 auto;
+	}
+	.Product-Tab{
+		margin: 0px;
+		padding-top: 16%;
+		padding-bottom: 30px;
+		width:16%;
+		position: relative;
+		display: inline-block;	
+		background-color: white;
+		border-style: solid;
+		border-width: thin;
+		border-color: #d1d1d1;
+	}
+	/*.Product-Tab:hover .card-overlay{
+		height: 100%
+	}*/
+	.Product-thumbnail{
+		position:absolute;	
+		top: 0;
+	    left: 0;
+	    bottom: 0;
+	    right: 0;
+	}
+	.card-img-top{
+		position:absolute; 
+		max-height:180px;
+		left: 50%; 
+		top: 50%; 
+		transform: translate(-50%, -50%);
+	}
+	.card-overlay{
+		position: relative;
+		overflow: hidden;
+		height: 100%;
+		width: 100%;
+		/*position: absolute;
+		bottom: 0;
+		left: 0;
+		right:0;
+		width: 100%;
+		background:rgba(255,255,255,0.8);
+		overflow: hidden;
+		height:0;
+		transition: .5s ease;*/
+	}
+	#product_name{
+	  	color: blue;
+	  	font-size: 1vw;
+	  	position: absolute;
+  		bottom: 0;
+  		left: 0;
+  		width: 100%;
+	}
+	/*end of featured card group styling*/
+	/*Start of table styling*/
+	.Section-title{
+		/*background-color: #4a8dac;*/
+		color:black;
+		font-size: 24px;
+	}
+	/*End of table styling*/
+}

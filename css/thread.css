@@ -1,0 +1,187 @@
+.media-comment{
+	/* These are technically the same, but use both */
+	  overflow-wrap: break-word;
+	  word-wrap: break-word;
+
+	  -ms-word-break: break-all;
+	  /* This is the dangerous one in WebKit, as it breaks things wherever */
+	  word-break: break-all;
+	  /* Instead use this non-standard one: */
+	  word-break: break-word;
+
+	  /* Adds a hyphen where the word breaks, if supported (No Blink) */
+	  -ms-hyphens: auto;
+	  -moz-hyphens: auto;
+	  -webkit-hyphens: auto;
+	  hyphens: auto;
+}
+.media-comment img{
+	max-width: 100%;
+	height: auto;
+}
+.post-info-name{
+	color: white;
+}
+.post-info-replies{
+	float: right;
+	color: white;
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) and (max-width: 479px) {
+	.Title-Popup{
+		display: none;
+	    position: fixed;
+	    top: 0;
+	    height: auto;
+	    width:100%;
+	    padding-left: 20px;
+	    padding-top: 10px; 
+	    border-bottom: 1px solid #000;
+	    background: #192231;
+	    z-index: 200;
+	}
+	#commentSection{
+		padding-top: 20px;
+	}
+	.btn-circle.btn-xl {
+		width: 60px;
+		height: 60px;
+	  	padding: 1px 2px;
+	  	font-size: 5vw;
+	  	line-height: 1;
+	  	border-radius: 40px;
+	  	position:fixed; 
+		right:0%; 
+		bottom:14%;
+		z-index: 150;
+	}
+}
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) and (max-width: 767px) {
+	.container{
+		min-width: 90%;
+	}
+	.Title-Popup{
+		display: none;
+	    position: fixed;
+	    top: 0;
+	    height: auto;
+	    width:100%;
+	    padding-left: 20px;
+	    padding-top: 10px; 
+	    border-bottom: 1px solid #000;
+	    background: #192231;
+	    z-index: 200;
+	}
+	#commentSection{
+		padding-top: 20px;
+	}
+	.btn-circle.btn-xl {
+		width: 60px;
+		height: 60px;
+	  	padding: 1px 2px;
+	  	font-size: 4vw;
+	  	line-height: 1;
+	  	border-radius: 40px;
+	  	position:fixed; 
+		right:0%; 
+		bottom:100px;
+		z-index: 150;
+	}
+}
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) and (max-width: 991px) {
+	.container{
+		min-width: 90%;
+	}
+	.Title-Popup{
+		display: none;
+	    position: fixed;
+	    top: 0;
+	    height: auto;
+	    width:100%;
+	    padding-left: 20px;
+	    padding-top: 10px; 
+	    border-bottom: 1px solid #000;
+	    background: #192231;
+	    z-index: 200;
+	}
+	#commentSection{
+		padding-top: 20px;
+	}
+	.btn-circle.btn-xl {
+		width: 70px;
+		height: 70px;
+	  	padding: 14px 14px;
+	  	font-size: 2em;
+	  	line-height: 1.2;
+	  	border-radius: 36px;
+	  	position:fixed; 
+		right:0%; 
+		bottom:10%;
+		z-index: 150;
+		text-align: center;
+	}
+}
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) and (max-width: 1199px) {
+	.Title-Popup{
+		display: none;
+	    position: fixed;
+	    top: 0;
+	    height: auto;
+	    width:100%;
+	    padding-left: 20px;
+	    padding-top: 10px; 
+	    border-bottom: 1px solid #000;
+	    background: #192231;
+	    z-index: 200;
+	}
+	#commentSection{
+		padding-top: 20px;
+	}
+	.btn-circle.btn-xl {
+		width: 90px;
+		height: 90px;
+	  	padding: 10px 16px;
+	  	font-size: 2em;
+	  	line-height: 1.33;
+	  	border-radius: 50px;
+	  	position:fixed; 
+		right:1%; 
+		bottom:12%;
+		z-index: 150;
+		text-align: center;
+	}
+}
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	.Title-Popup{
+		display: none;
+	    position: fixed;
+	    top: 0;
+	    height: auto;
+	    width:100%;
+	    padding-left: 20px;
+	    padding-top: 10px; 
+	    border-bottom: 1px solid #000;
+	    background: #192231;
+	    z-index: 200;
+	}
+	#commentSection{
+		padding-top: 20px;
+	}
+	.btn-circle.btn-xl {
+		width: 100px;
+		height: 100px;
+	  	padding: 10px 16px;
+	  	font-size: 2em;
+	  	line-height: 1.33;
+	  	border-radius: 50px;
+	  	position:fixed; 
+		right:5%; 
+		bottom:15%;
+		z-index: 150;
+	}
+}

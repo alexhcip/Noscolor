@@ -1,0 +1,112 @@
+#introSection{
+	max-width: 1200px;
+	position: relative;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.section-header{
+	display: block;
+	font-size: 1.5em;
+	font-weight: bold;
+	padding: 20px 0px;
+	text-align: center;
+}
+
+.section-header::after {
+  border-bottom: 3px solid #e81f1f;
+  width: 20%;
+  display: block;
+  content: "";
+  margin: 0 auto; 
+}
+
+.intro-main-msg{
+  color: #000;
+  padding: 5px;
+  font-weight: bold;
+  text-align: left;
+}
+.intro-sub-msg{
+  color: #000;
+  padding: 5px;
+  text-align: left;
+}
+@media screen and (max-width: 600px) {
+
+  .intro-content{
+    width: 90%;
+    margin: 10px auto;
+  }
+  
+  .intro-img{
+  	width: 50%;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .intro-msg{
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .intro-main-msg{
+  	font-size: 16px;
+  }
+  .intro-sub-msg{
+  	font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 980px) {
+  
+  .section-header{
+	 font-size: 1.8em;
+  }
+  .intro-content{
+    width: 30%;
+    margin: 0 5px;
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  .intro-img{
+  	width: 100%;
+  }
+
+  .intro-main-msg{
+  	font-size: 1.2em;
+  }
+  .intro-sub-msg{
+  	font-size: 1em;
+  }
+
+}
+
+@media screen and (min-width: 981px) {
+
+  #introSection{
+    margin: 40px auto;
+  }
+  .section-header{
+  	font-size: 2em;
+  }
+
+  .intro-content{
+    width: 30%;
+    margin: 0 5px;
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  .intro-img{
+  	width: 100%;
+  }
+
+  .intro-main-msg{
+  	font-size: 1.5em;
+  }
+  .intro-sub-msg{
+  	font-size: 1em;
+  }
+
+}

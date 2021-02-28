@@ -1,0 +1,307 @@
+#myInput {
+    background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+    background-position: 10px 12px; /* Position the search icon */
+    background-repeat: no-repeat; /* Do not repeat the icon image */
+    width: 100%; /* Full-width */
+    font-size: 16px; /* Increase font-size */
+    padding: 12px 20px 12px 40px; /* Add some padding */
+    border: 1px solid #ddd; /* Add a grey border */
+    margin-bottom: 12px; /* Add some space below the input */
+}
+#options{
+	text-align: center;
+}
+#myUL {
+    /* Remove default list styling */
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+.section-header {
+	text-align: left;
+    border: 1px solid #ddd; /* Add a border to all links */
+    margin-top: -1px; /* Prevent double borders */
+    margin-bottom: 5px;
+    background-color: #f6f6f6; /* Grey background color */
+    padding-left: 20px; /* Add some padding */
+    text-decoration: none; /* Remove default text underline */
+    color: black; /* Add a black text color */
+    display: block; /* Make it into a block element to fill the whole list */
+    cursor: default; /* Change cursor style */
+    width: 100%;    
+}
+.Product-Alpha-Tab {
+	width:100%;
+}
+.text-index{	
+	margin: 0 5px;
+}
+.Product-Tabs{
+	text-align: center;
+	position: relative;
+	font-size: 0px;
+}
+.Product-Tab{
+	margin: 0px;
+	padding-bottom: 30px;
+	position: relative;
+	display: inline-block;	
+	background-color: white;
+	border-style: solid;
+	border-width: thin;
+	border-color: #d1d1d1;
+}
+.brand-name{
+	position: absolute;
+	margin: 0;
+	top: 2%;
+	left: 2%;
+	z-index: 200;
+}
+.Product-thumbnail{
+	position:absolute;	
+	top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.card-img-top{
+	position:absolute; 
+	max-height:75%;
+	max-width:75%;
+	width: auto;
+	left: 50%; 
+	top: 50%; 
+	transform: translate(-50%, -50%);
+}
+#product_name{
+  	color: blue;
+  	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+.Section-title{
+	color:black;
+}
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) and (max-width: 479px) {
+	/*start of featured card group styling*/
+	/*Start of featured product styling*/
+	/*start of searchBar and alphabet bar styling*/
+    #options{
+    	padding-left: 10px;
+    }
+    .section-header {
+        font-size: 24px; /* Increase the font-size */ 
+    }
+    /*Start of featured product styling*/
+	.text-index{
+		font-size: 24px;
+	}
+	.Product-Tab{
+		padding-top: 49%;
+		width:49%;
+	}
+	.brand-name{
+		font-size: 14px;
+	}
+	
+	.card-overlay{
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background:rgba(255,255,255,0.8);
+		overflow: hidden;
+		width: 100%;
+		height: 0;
+	 	transition: .5s ease;
+	}
+	#product_name{
+	  	font-size: 14px;
+	}
+	/*end of featured card group styling*/
+	/*Start of table styling*/
+	.Section-title{
+		font-size: 16px;
+	}
+	/*End of table styling*/
+}
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) and (max-width: 767px) {
+	/*start of searchBar and alphabet bar styling*/
+    #options{
+    	padding-left: 20px;
+    }
+    .section-header {
+        font-size: 24px; /* Increase the font-size */
+    }
+    /*Start of featured product styling*/
+	.Product-Alpha-Tab {
+		width:100%;
+	}
+	.text-index{
+		font-size: 24px;
+	}
+	.Product-Tab{
+		padding-top: 32%;
+		width:32%;
+	}
+	.brand-name{
+		font-size: 14px;
+	}
+	.card-overlay{
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background:rgba(255,255,255,0.5);
+		overflow: hidden;
+		width: 100%;
+		height: 0;
+	 	transition: .5s ease;
+	}
+	#product_name{
+	  	font-size: 14px;
+	}
+	/*end of featured card group styling*/
+	/*Start of table styling*/
+	.Section-title{
+		font-size: 24px;
+	}
+	/*End of table styling*/
+}
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) and (max-width: 991px) {
+	/*start of searchBar and alphabet bar styling*/
+    #options{
+    	padding-left: 20px;
+    }
+    .section-header {
+        font-size: 24px; /* Increase the font-size */
+    }
+    /*Start of featured product styling*/
+	.Product-Alpha-Tab {
+		width:100%;
+	}
+	.text-index{
+		font-size: 24px;
+	}
+	.Product-Tab{
+		padding-top: 24%;
+		width:24%;
+	}
+	.brand-name{
+		font-size: 14px;
+	}
+	.card-overlay{
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background:rgba(255,255,255,0.8);
+		overflow: hidden;
+		width: 100%;
+		height: 0;
+	 	transition: .5s ease;
+	}
+	#product_name{
+	  	font-size: 14px;
+	}
+	/*end of featured card group styling*/
+	/*Start of table styling*/
+	.Section-title{
+		font-size: 24px;
+	}
+	/*End of table styling*/
+}
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) and (max-width: 1199px) {
+	/*start of searchBar and alphabet bar styling*/
+    #options{
+    	padding-left: 20px;
+    }
+    .section-header {
+        font-size: 24px; /* Increase the font-size */
+    }
+    /*Start of featured product styling*/
+	.Product-Alpha-Tab {
+		width:100%;
+	}
+	.text-index{
+		font-size: 24px;
+	}
+	.Product-Tab{
+		padding-top: 16%;
+		width:16%;
+	}
+	.brand-name{
+		font-size: 14px;
+	}
+	.card-overlay{
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background:rgba(255,255,255,0.8);
+		overflow: hidden;
+		width: 100%;
+		height: 0;
+	 	transition: .5s ease;
+	}
+	#product_name{
+	  	font-size: 14px;
+	}
+	/*end of featured card group styling*/
+	/*Start of table styling*/
+	.Section-title{
+		font-size: 24px;
+	}
+	/*End of table styling*/
+}
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	/*start of searchBar and alphabet bar styling*/
+    #options{
+    	padding-left: 20px;
+    }
+    .section-header {
+        font-size: 24px; /* Increase the font-size */
+    }
+    .category-radio-group{
+    	text-align: center;
+    }
+    /*Start of featured product styling*/
+	.Product-Alpha-Tab {
+		width:100%;
+	}
+	.text-index{
+		font-size: 24px;
+	}
+	.Product-Tabs{
+		margin: 0 auto;
+	}
+	.Product-Tab{
+		padding-top: 16%;
+		width:16%;
+	}
+	.brand-name{
+		font-size: 14px;
+	}
+	.card-overlay{
+		position: relative;
+		overflow: hidden;
+		height: 100%;
+		width: 100%;
+	}
+	#product_name{
+	  	font-size: 14px;
+	}
+	/*end of featured card group styling*/
+	/*Start of table styling*/
+	.Section-title{
+		font-size: 24px;
+	}
+	/*End of table styling*/
+}

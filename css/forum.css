@@ -1,0 +1,98 @@
+.container{
+    min-width: 90%;
+}
+#forumSection{
+    width: 100%;
+}
+.Section-title{
+    color:black;
+}
+/*Start of table styling*/
+.Forum-table-header{
+    display: flex;
+    align-items: stretch; /* Default */
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    padding: 0;
+    position: relative;
+    padding-bottom: 10px;
+    border-bottom: 2px solid grey;
+}
+.Forum-table-header li{
+    display: block;
+    flex: 0 1 auto; /* Default */
+    list-style-type: none;
+    height: 40px;
+}
+#addTopicSpan {
+    padding: 0px 0px;
+    border-radius: 2px;
+    margin:0px;
+    width: 25%;
+}
+#addTopic{
+    margin-left:10px;
+    width: 100%;
+    font-family: Arial;
+    font-size: 16px;
+    background-color: #3cc47c;
+    color: white;
+}
+.Forum-ordering-button{
+    width: 25%;
+    margin-bottom: 0px;  
+}
+.Forum-category-button{  
+    width: 25%;
+    margin-bottom: 0px; 
+}
+/*End of table styling*/
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) and (max-width: 479px) {
+    .Section-title{
+        font-size: 20px;
+    }
+    #addTopic{
+        font-size: 14px;
+        margin-left: 0px;
+        height: 100%;
+    }
+    .Forum-ordering-button{
+        font-size: 14px;
+    }
+    .Forum-category-button{  
+        font-size: 14px;
+    }
+}
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) and (max-width: 767px) {
+    .Section-title{
+        font-size: 20px;
+    }
+}
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) and (max-width: 991px) {
+    .Section-title{
+        font-size: 24px;
+    }
+}
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) and (max-width: 1199px) {
+    .Section-title{
+        font-size: 30px;
+    }
+}
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+    .container{
+        max-width: 1200px;
+        min-width: auto;
+    }
+    .Section-title{
+        font-size: 36px;
+    }
+}
+

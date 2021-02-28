@@ -1,0 +1,150 @@
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) and (max-width: 479px) {
+	/*Start of user info styling*/
+	.media-left{
+		width: 25%;
+		text-align: center;
+	}
+	.comment-username{
+		font-size: 3.3vw;
+	}
+	.user-gender-icon{
+		display: none;
+	}
+	.user-skintype-div{
+		font-size: 3vw;
+	}
+	.user-skintype{
+		display: inline-block;
+		vertical-align: middle;
+		line-height: normal;
+	}
+	.user-age-group{
+		font-size: 3vw;
+	}
+	.user-record{
+		font-size: 2.5vw;
+	}
+	/*End of user info styling*/
+}
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) and (max-width: 767px) {
+	/*Start of user info styling*/
+	.media-left{
+		width: 20%;
+		text-align: center;
+	}
+	.comment-username{
+		font-size: 2vw;
+	}
+	.user-gender-icon{
+		display: none;
+	}
+	.user-skintype-div{
+		font-size: 1.8vw;
+	}
+	.user-skintype{
+		display: inline-block;
+		vertical-align: middle;
+		line-height: normal;
+	}
+	.user-age-group{
+		font-size: 1.8vw;
+	}
+	.user-record{
+		font-size: 1.8vw;
+	}
+	/*End of user info styling*/
+}
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) and (max-width: 991px) {
+	/*Start of user info styling*/
+	.media-left{
+		width: 15%;
+		text-align: center;
+	}
+	.comment-username{
+		font-size: 1.7vw;
+	}
+	.user-gender-icon{
+		display: none;
+	}
+	.user-skintype-div{
+		font-size: 1.5vw;
+	}
+	.user-skintype{
+		display: inline-block;
+		vertical-align: middle;
+		line-height: normal;
+	}
+	.user-age-group{
+		font-size: 1.5vw;
+	}
+	.user-record{
+		font-size: 1.2vw;
+	}
+	/*End of user info styling*/
+}
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) and (max-width: 1199px) {
+	/*Start of user info styling*/
+	.media-left{
+		width: 15%;
+		text-align: center;
+	}
+	.comment-username{
+		font-size: 1.5vw;
+	}
+	.user-gender-icon{
+		style="height: 28px; 
+		line-height: 28px; 
+		display: inline-block;
+	}
+	.user-skintype-div{
+		font-size: 1.2vw;
+	}
+	.user-skintype{
+		display: inline-block;
+		vertical-align: middle;
+		line-height: normal;
+	}
+	.user-age-group{
+		font-size: 1.2vw;
+	}
+	.user-record{
+		font-size: 1vw;
+	}
+	/*End of user info styling*/
+}
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	/*Start of user info styling*/
+	.media-left{
+		width: 15%;
+		text-align: center;
+		background-color: #fdfdfd;
+	}
+	.comment-username{
+		font-size: 1.2vw;
+	}
+	.user-gender-icon{
+		height: 28px; 
+		line-height: 28px; 
+		display: inline-block;
+	}
+	.user-skintype-div{
+		font-size: 1vw;
+	}
+	.user-skintype{
+		display: inline-block;
+		vertical-align: middle;
+		line-height: normal;
+	}
+	.user-age-group{
+		font-size: 12px;
+	}
+	.user-record{
+		font-size: 12px;
+	}
+	/*End of user info styling*/
+}

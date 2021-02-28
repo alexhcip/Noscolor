@@ -1,0 +1,227 @@
+.section-header{
+	display: block;
+	font-size: 1.5em;
+	font-weight: bold;
+	padding: 20px 0px;
+	text-align: left;
+}
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) and (max-width: 479px) {
+	.container{
+		padding: 5px;
+	}
+	#header_text{
+		text-align: center;
+		margin-top: 20px;
+		font-size: 20px;
+	}
+	.table-hover{
+		table-layout: auto;
+    	border-collapse: collapse;
+    	width: 100%;
+    	background-color: white;
+    	margin-top:10px;
+    	margin-bottom:10px;
+	}
+	.liked-thumbnail{
+		width:30%;
+		text-align: center;
+		position: relative;
+	}
+	.product-thumbnail{
+		display: block;
+		margin: auto; 
+		width: 100%;
+	}
+	.liked-name{
+		font-size: 0.8rem;
+		text-align: left;
+		padding-left: 5px;
+		width:60%;
+	}
+	.liked-brandname{
+		font-size: 1rem;
+		text-align: center;
+		padding-left: 5px;
+		width: 10%;
+	}
+	.liked-date{
+		display: none;
+	}
+}
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) and (max-width: 767px) {
+	.container{
+		padding: 5px;
+	}
+	#header_text{
+		text-align: center;
+		margin-top: 20px;
+		font-size: 20px;
+	}
+	.table-hover{
+		table-layout: auto;
+    	border-collapse: collapse;
+    	width: 100%;
+    	background-color: white;
+    	margin-top:10px;
+    	margin-bottom:10px;
+	}
+	.liked-thumbnail{
+		width:20%;
+		text-align: center;
+		position: relative;
+	}
+	.product-thumbnail{
+		display: block;
+		margin: auto; 
+		width: 100%;
+	}
+	.liked-name{
+		font-size: 0.9rem;
+		text-align: left;
+		padding-left: 5px;
+		width:60%;
+	}
+	.liked-brandname{
+		font-size: 1rem;
+		text-align: center;
+		padding-left: 5px;
+		width: 20%;
+	}
+	.liked-date{
+		display: none;
+	}
+}
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) and (max-width: 991px) {
+	.container{
+		padding: 0px;
+	}
+	#header_text{
+		text-align: center;
+		margin-top: 20px;
+		font-size: 22px;
+	}
+	.table-hover{
+		table-layout: auto;
+    	border-collapse: collapse;
+    	width: 100%;
+    	background-color: white;
+    	margin-top:10px;
+    	margin-bottom:10px;
+	}
+	.liked-thumbnail{
+		width:15%;
+		text-align: center;
+		position: relative;
+	}
+	.product-thumbnail{
+		display: block;
+		margin: auto; 
+		width: 100%;
+	}
+	.liked-name{
+		font-size: 1rem;
+		text-align: left;
+		padding-left: 5px;
+		width:50%;
+	}
+	.liked-brandname{
+		font-size: 1rem;
+		text-align: center;
+		padding-left: 5px;
+		width: 20%;
+	}
+	.liked-date{
+		width:15%;
+	}
+}
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) and (max-width: 1199px) {
+	.container{
+		padding: 0px;
+	}
+	#header_text{
+		text-align: center;
+		margin-top: 20px;
+		font-size: 24px;
+	}
+	.table-hover{
+		table-layout: auto;
+    	border-collapse: collapse;
+    	width: 100%;
+    	background-color: white;
+    	margin-top:10px;
+    	margin-bottom:10px;
+	}
+	.liked-thumbnail{
+		width:15%;
+		text-align: center;
+		position: relative;
+	}
+	.product-thumbnail{
+		display: block;
+		margin: auto; 
+		width: 100%;
+	}
+	.liked-name{
+		font-size: 1rem;
+		text-align: left;
+		padding-left: 10px;
+		width:50%;
+	}
+	.liked-brandname{
+		font-size: 1rem;
+		text-align: center;
+		padding-left: 10px;
+		width: 20%;
+	}
+	.liked-date{
+		width:15%;
+	}
+}
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	.container{
+		padding: 0px;
+	}
+	#header_text{
+		text-align: center;
+		margin-top: 20px;
+		font-size: 26px;
+	}
+	.table-hover{
+		table-layout: auto;
+    	border-collapse: collapse;
+    	width: 100%;
+    	background-color: white;
+    	margin-top:10px;
+    	margin-bottom:10px;
+	}
+	.liked-thumbnail{
+		width:15%;
+		text-align: center;
+		position: relative;
+	}
+	.product-thumbnail{
+		display: block;
+		margin: auto; 
+		width: 100%;
+	}
+	.liked-name{
+		font-size: 1.2rem;
+		text-align: left;
+		padding-left: 10px;
+		width:50%;
+	}
+	.liked-brandname{
+		font-size: 1.2rem;
+		text-align: center;
+		padding-left: 10px;
+		width: 20%;
+	}
+	.liked-date{
+		width:15%;
+	}
+}
